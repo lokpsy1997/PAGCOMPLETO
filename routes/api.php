@@ -21,6 +21,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['namespace' => 'App\Http\Controllers'], function()
 {
   
-    Route::any('/show','PagcompletoController@index')->name('show');
+    Route::any('/verificacao','PagcompletoController@index')->name('verificacao');
 
 });
