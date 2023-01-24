@@ -6,7 +6,7 @@ use :
  
 # Processo de instalação
 
- -Configuração .Env
+ -Configuração .env
   
    > DB_CONNECTION=pgsql
 
@@ -17,8 +17,10 @@ use :
    > DB_DATABASE=postgres
 
    > DB_USERNAME=postgres
-   
+
    > DB_PASSWORD=postgres 
+
+   > renomear arquivo .env.exemple para .env
 
  # Metodo de Uso
 
