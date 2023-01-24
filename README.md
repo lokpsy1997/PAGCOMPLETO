@@ -9,10 +9,15 @@ use :
  -Configuração .Env
   
    > DB_CONNECTION=pgsql
+
    > DB_HOST=postgres
+
    > DB_PORT=5432
+
    > DB_DATABASE=postgres
+
    > DB_USERNAME=postgres
+   
    > DB_PASSWORD=postgres 
 
  # Metodo de Uso
